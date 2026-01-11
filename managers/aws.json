@@ -3,6 +3,7 @@
   "customManagers": [
     {
       "customType": "regex",
+      "managerFilePatterns": ["smithy-build.json", "**/smithy-build.json"],
       "matchStrings": [
         "\"(?<packageName>software\\.amazon\\.smithy:[^:]+):(?<currentValue>[^\"]+)\""
       ],
