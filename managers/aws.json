@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "matchStrings": [
+        "\"(?<packageName>software\\.amazon\\.smithy:[^:]+):(?<currentValue>[^\"]+)\""
+      ],
+      "datasourceTemplate": "maven",
+      "versioningTemplate": "gradle"
+    }
+  ]
+}

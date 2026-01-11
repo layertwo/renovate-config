@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": ["Group aws-cdk-lib updates"],
+      "matchDataSources": ["npm"],
+      "matchPackagePatterns": ["aws-cdk-lib", "aws-cdk"],
+      "groupName": "aws-cdk-lib",
+      "groupSlug": "aws-cdk-lib",
+      "schedule": ["on saturday"]
+    },
+    {
+      "description": ["Group boto3 updates"],
+      "matchDatasources": ["pip"],
+      "matchPackagePatterns": ["boto3", "types-boto3"],
+      "groupName": "boto3",
+      "groupSlug": "boto3",
+      "schedule": ["on saturday"]
+    },
+    {
+
+      "description": ["Group smithy updates"],
+      "matchDepNames": [
+        "software\\.amazon\\.smithy:.*",
+        "smithy-lang/smithy"
+      ],
+      "groupName": "smithy",
+      "groupSlug": "smithy"
+    }
+  ]
+}
