@@ -4,7 +4,7 @@
     {
       "description": ["Group aws-cdk-lib updates"],
       "matchDataSources": ["npm"],
-      "matchPackagePatterns": ["aws-cdk-lib", "aws-cdk"],
+      "matchPackageNames": ["aws-cdk-lib", "aws-cdk"],
       "groupName": "aws-cdk-lib",
       "groupSlug": "aws-cdk-lib",
       "schedule": ["on saturday"]
@@ -12,16 +12,15 @@
     {
       "description": ["Group boto3 updates"],
       "matchDatasources": ["pip"],
-      "matchPackagePatterns": ["boto3", "types-boto3"],
+      "matchPackageNames": ["boto3", "types-boto3"],
       "groupName": "boto3",
       "groupSlug": "boto3",
       "schedule": ["on saturday"]
     },
     {
-
       "description": ["Group smithy updates"],
-      "matchDepNames": [
-        "software\\.amazon\\.smithy:.*",
+      "matchPackageNames": [
+        "software\\.amazon\\.smithy",
         "smithy-lang/smithy"
       ],
       "groupName": "smithy",
