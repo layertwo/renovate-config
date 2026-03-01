@@ -20,7 +20,7 @@
     {
       "description": ["Group smithy updates"],
       "matchPackageNames": [
-        "software\\.amazon\\.smithy",
+        "/^software\\.amazon\\.smithy/",
         "smithy-lang/smithy"
       ],
       "groupName": "smithy",
