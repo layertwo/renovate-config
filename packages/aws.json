@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "description": ["Group aws-cdk-lib updates"],
-      "matchDataSources": ["npm", "pip"],
+      "matchDatasources": ["npm", "pip"],
       "matchPackageNames": ["aws-cdk-lib", "aws-cdk"],
       "groupName": "aws-cdk-lib",
       "groupSlug": "aws-cdk-lib",
