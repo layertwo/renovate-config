@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": ["Group CloudTAK image updates"],
+      "matchPackageNames": ["/^ghcr\\.io\\/dfpc-coe\\/cloudtak-/"],
+      "groupName": "cloudtak",
+      "groupSlug": "cloudtak"
+    }
+  ]
+}
