@@ -16,6 +16,11 @@
       "schedule": ["on saturday"]
     },
     {
+      "description": ["Schedule aws-sdk updates"],
+      "matchPackageNames": ["software.amazon.awssdk:bom"],
+      "schedule": ["on saturday"]
+    },
+    {
       "description": ["Group smithy updates"],
       "matchPackageNames": [
         "/^software\\.amazon\\.smithy/",
