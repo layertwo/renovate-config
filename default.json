@@ -7,9 +7,10 @@
     ":disableRateLimiting",
     "replacements:k8s-registry-move",
     ":semanticCommits",
+    "github>layertwo/renovate-config//managers/aws",
+    "github>layertwo/renovate-config//packages/allowed-versions",
     "github>layertwo/renovate-config//packages/aws",
     "github>layertwo/renovate-config//packages/noisy-npm",
-    "github>layertwo/renovate-config//managers/aws",
     "github>layertwo/renovate-config//packages/cloudtak",
     "github>layertwo/renovate-config//packages/stoatchat"
   ]

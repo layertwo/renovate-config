@@ -14,6 +14,12 @@
           "prettier"
       ],
       "schedule": ["on saturday"]
+    },
+    {
+      "description": ["Disable noisy NPM packages"],
+      "matchDataSources": ["npm"],
+      "matchPackagePatterns": ["@types/node"],
+      "enabled": false
     }
   ]
 }
